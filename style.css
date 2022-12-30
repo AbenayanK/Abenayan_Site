@@ -157,7 +157,7 @@ margin-top: 30px;
 }
 .contact-left p i{
  color:#ff004f;
- margin-right: 10px;
+ margin-right: 50px;
  font-size: 25px;
 }
 .social-icons{
@@ -200,4 +200,9 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+#msg{
+    color: #61b752;
+    margin-top: 20px;
+    display: block;
 }
