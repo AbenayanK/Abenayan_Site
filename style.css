@@ -162,30 +162,31 @@ margin-top: 30px;
 }
 .social {
 
-  
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-  }
-  
 
-  .social svg {
-    width: 32px;
-    height: 32px;
-    fill: #333333;
-    cursor: pointer;
-    margin-bottom: 8px;
-    transition: fill 0.2s ease-in;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
 
-  .social svg:hover {
-    fill: #B18DE8;
-  }
-  
-  .social a {
-   /* Add some spacing between the icons */
-    margin-right: 10px;
-  }
+
+.social svg {
+  width: 32px;
+  height: 32px;
+  fill: #333333;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: fill 0.2s ease-in;
+}
+
+.social svg:hover {
+  fill: #B18DE8;
+}
+
+.social a {
+ /* Add some spacing between the icons */
+  margin-right: 10px;
+}
+
 .btn.btn2{
 display: inline block;
 background: #ff004f;
