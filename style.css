@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #080808;
     color: #fff;
@@ -16,7 +19,6 @@ body{
 .container{
     padding: 10px 10%;
 }
- 
 nav{
     display: flex;
     align-items: center;
@@ -59,7 +61,6 @@ margin-top :20px;
 }
 /*-------about---------*/
 #about{
-
     padding: 80px 0;
     color: #ababab;
 }
@@ -156,7 +157,7 @@ margin-top: 30px;
 }
 .contact-left p i{
  color:#ff004f;
- margin-right: 15px;
+ margin-right: 10px;
  font-size: 25px;
 }
 .social-icons{
