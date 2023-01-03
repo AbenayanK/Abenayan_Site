@@ -78,6 +78,31 @@ animation-fill-mode: forwards;
 .header-text h1 span{
     color: #ff004f;
 }
+/*----- Resume Button-------*/
+.Resume{
+        flex-basis: 60%;
+    }
+.Resume form{
+        width: 100%;
+        text-align: center;
+
+}
+.Resume.btn{
+    display: inline block;
+    background: #ff004f;
+    border-radius: 7px;
+    transition: all 0.4s ease;
+
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Resume.btn:hover{
+    background: #262626;
+    transition-delay: 0.2s;
+    color: white;
+  }
 /*-------about---------*/
 #about{
     padding: 80px 0;
@@ -182,14 +207,10 @@ margin-top: 30px;
  text-align: center;
 }
 .social {
-
-
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
-
-
 .social svg {
   width: 32px;
   height: 32px;
